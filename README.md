@@ -1,2 +1,2 @@
 # Reto_8
-take the Menu code from Reto 3 and implement a new Class that creates and iterable with all the items in an order, it should allow looping and contain all item attributes.
+I added an OrderIterator class to enable iteration over the Order object. The Order class now implements the __iter__ method, returning an instance of OrderIterator, which maintains an internal index to track iteration. This allows looping through the order's items while preserving all their attributes. Additionally, I included a demonstration of iteration in the usage example, printing item details from the order.
